@@ -1,0 +1,28 @@
+
+
+
+/* table css*/
+.listGrid{border-radius: 8px 8px 0 0;}
+.list_grid{width:100%}
+
+.mgtop {margin-top:15px}
+.active_menu{width: 100%}
+.active_menu img{vertical-align: middle}
+.active_menu div{background: #DADADA;background: url(../images/menu_bg_tb.png) repeat-x;border: 1px solid #A5AEB5;height: auto;overflow: hidden;padding: 5px 0;}
+.active_menu div span{margin-left: 10px;font-weight: bold;}
+.active_menu a{color: #004A97}
+.active_menu a:hover{text-decoration: underline}
+
+/* page*/.pagination{height: auto;overflow: hidden}
+.pagination a{color: #0088CC}
+.pagination ul li{display: inline;}
+.pagination ul li a, .pagination ul li span{-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;background-color: #FFFFFF;border-color: #DDDDDD;border-image: none;border-style: solid;border-width: 1px 1px 1px 0;float: left;line-height: 20px;padding: 4px 12px;text-decoration: none;}
+.pagination ul .disabled span, .pagination ul .disabled a, .pagination ul .disabled a:hover, .pagination ul .disabled a:focus{background-color: transparent;color: #999999;cursor: default;}
+.pagination ul li:first-child a, .pagination ul li:first-child span{border-bottom-left-radius: 4px;border-left-width: 1px;border-top-left-radius: 4px;}
+.pagination ul .active a, .pagination ul .active span{color: #999999;cursor: default;}
+.pagination ul li a:hover, .pagination ul li a:focus, .pagination ul .active a, .pagination ul .active span{background-color: #F5F5F5;}
+.pagination ul li:last-child a, .pagination ul li:last-child span{border-bottom-right-radius: 4px;border-top-right-radius: 4px;}
+.pagination ul{_border-left: 1px solid #ddd}
+.pagination.trend-list-pagination ul{border-left:0px}
+.fr{float: right}
+.fl{float: left}
