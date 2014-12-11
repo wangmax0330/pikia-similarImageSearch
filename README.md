@@ -5,16 +5,9 @@ pikia-1
 主页地址  
 -----------------------------------  
   http://localhost:8080/picSearch/d/index
-### Tomcat server.xml 需要加入: 
-      <Context crossContext="true" docBase="/home/methew/workspace/pic" path="/picSearch/upload" reloadable="true"/>	        docBase  本机放置图片的地址
       
-      小标题的格式如下 ### 小标题<br />  
-      注意#和标题字符中间要有空格  
-      
-### 注意!!!下面所有语法的提示我都先用小标题提醒了!!!   
-      
-### 单行文本框  
-    这是一个单行的文本框,只要两个Tab再输入文字即可  
+### 架构 
+    Spring mvc+myBatis+Maven+jquery ajax
               
 ### java.lang.ClassNotFoundException: org.springframework.web.context.ContextLoaderListener  
     解决方法:
