@@ -5,8 +5,9 @@ pikia-1
 主页地址  
 -----------------------------------  
   http://localhost:8080/picSearch/d/index
-### 小标题  
-      <Context crossContext="true" docBase="/home/methew/workspace/pic" path="/picSearch/upload" reloadable="true"/>	
+### Tomcat server.xml 需要加入: 
+      <Context crossContext="true" docBase="/home/methew/workspace/pic" path="/picSearch/upload" reloadable="true"/>	        docBase  本机放置图片的地址
+      
       小标题的格式如下 ### 小标题<br />  
       注意#和标题字符中间要有空格  
       
@@ -15,10 +16,9 @@ pikia-1
 ### 单行文本框  
     这是一个单行的文本框,只要两个Tab再输入文字即可  
               
-### 多行文本框    
-        这是一个有多行的文本框  
-        你可以写入代码等,每行文字只要输入两个Tab再输入文字即可  
-        这里你可以输入一段代码  
+### java.lang.ClassNotFoundException: org.springframework.web.context.ContextLoaderListener  
+    解决方法:
+    项目 —> 属性 -> Deployment Assembly -> Add -> Java Build Path Entries -> 选择Maven Dependencies -> Finish -> OK
       
     ### 比如我们可以在多行文本框里输入一段代码,来一个Java版本的HelloWorld吧  
         public class HelloWorld {  
